@@ -52,6 +52,7 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 20px;
 }
 
 .greetings h1{
@@ -171,5 +172,42 @@ padding: 10px;
 /*Join Now section*/
 .join-now{
   width: 80%;
-  
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  height: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-inline: .2px rgb(234, 232, 232) solid;
+  margin-bottom: 100px;
+}
+
+.join-now h2{
+font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.join-now span{
+  color: red;
+}
+
+.join-now button{
+border-radius: 8px;
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+padding: 12px 25px 12px 25px;
+border: none;
 }
