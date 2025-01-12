@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
 .roboto-normal> {
   font-family: "Roboto", serif;
   font-optical-sizing: auto;
@@ -7,11 +13,14 @@
     "wdth" 100;
 }
 
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*common styles*/
+.para-description{
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
 }
 
 /*Banner Section Style*/
@@ -26,11 +35,12 @@
   display: flex;
   justify-content: center;
   align-items:end;
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
 
 .greetings{
 width: 508px;
-
 height: 480px;
 }
 
@@ -54,3 +64,112 @@ letter-spacing: 0%;
 text-align: center;
 }
 
+
+/*New year offer section*/
+.new-year{
+width: 40%;
+margin: auto;
+margin-bottom: 50px;
+}
+
+.new-year-text{
+  margin-bottom: 30px;
+}
+.new-year h1{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 70px;
+font-weight: 700;
+line-height: 85px;
+letter-spacing: 0%;
+text-align: center;
+padding: 30px;
+}
+
+.new-year  h4{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 19px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 20px;
+}
+
+.new-year h2{
+  color: rgb(7, 2, 17);
+font-family: Inter;
+font-size: 38px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.new-year .new-year-image{
+  width: 630px;
+  height: 400px;
+  background-image: url(images/New\ Year\ Photo.png);
+  background-size: contain;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+/*Welcome section*/
+.welcome{
+  width: 80%;
+  background-color: aqua;
+  height: 60vh;
+  margin: auto;
+  margin-bottom: 90px;
+  border-radius: 16px;
+ background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) ), url(images/Vectorrr.png);
+ background-repeat:no-repeat;
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.welcome-text{
+  width: 50%;
+  margin-left: 150px;
+
+}
+.welcome-text h2{
+  color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 51px;
+font-weight: 900;
+line-height: 70px;
+letter-spacing: 11%;
+text-align: left;
+padding: 10px;
+}
+
+.welcome-text p{
+  color: white;
+  padding: 10px;
+}
+.welcome-text h3{
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.welcome-image{
+  width: 40%;
+  padding-left: 190px;
+}
+
+/*Join Now section*/
+.join-now{
+  width: 80%;
+  
+}
