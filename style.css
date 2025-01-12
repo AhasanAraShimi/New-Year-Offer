@@ -166,7 +166,10 @@ padding: 10px;
 
 .welcome-image{
   width: 40%;
-  padding-left: 190px;
+}
+.welcome-image img{
+  width: 55%;
+  margin-left: 70px;
 }
 
 /*Join Now section*/
