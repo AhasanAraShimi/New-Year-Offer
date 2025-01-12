@@ -131,6 +131,7 @@ text-align: center;
  display: flex;
  justify-content: center;
  align-items: center;
+ gap: 10px;
 }
 
 .welcome-text{
@@ -165,12 +166,15 @@ padding: 10px;
 }
 
 .welcome-image{
-  width: 40%;
+  width: 400px;
+  margin: auto;
+  height: 400px;
+  background-image: url(images/Group\ 70.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
 }
-.welcome-image img{
-  width: 55%;
-  margin-left: 70px;
-}
+
 
 /*Join Now section*/
 .join-now{
