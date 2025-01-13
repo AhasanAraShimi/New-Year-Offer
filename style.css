@@ -342,20 +342,79 @@ margin-block: 20px;
   text-align: center;
 }
 
-
-
-
-
-
-
+/*Discount section*/
 .discount{
   width: 80%;
   background-image: url(images/Rectangle\ 2.png);
-  height: 400px;
+  height: 70vh;
   background-repeat: no-repeat;
   background-position: bottom;
   margin: auto;
-  background-color: aqua;
  background-size: contain;
  margin-block: 50px;
+ display: flex;
+ justify-content: space-evenly;
+ gap: 40px;
 }
+.image-1{
+  width: 600px;
+}
+.image-1 img{
+  width: 100%;
+}
+.image-2{
+  margin-top: 50px;
+}
+
+/*portfolio section*/
+.portfolio{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.portfolio h4{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 19px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 10px;
+}
+
+.portfolio h1{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 38px;
+font-weight: 900;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+
+.portfolio p{
+  margin-bottom: 40px;
+}
+.portfolio .products{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+gap: 60px;
+}
+
+.products div{
+  height: 450px;
+  width: 424px;
+  border-radius: 16px;
+}
+
+.products div img{
+width: 100%;
+}
+
+/*Subscribe section*/
