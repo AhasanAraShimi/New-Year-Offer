@@ -428,7 +428,7 @@ height: 100%;
   background: rgba(255, 0, 0, 0.05);
   height: 492px;
   margin-block: 100px;
-  height: 60vh;
+  height: 70vh;
   
 }
 
@@ -437,12 +437,11 @@ height: 100%;
   margin: auto;
 
 }
-
 .subscribe-text img{
- margin-left: 350px;
  width: 110px;
  padding: 10px;
- margin-top: 100px;
+ margin-top: 90px;
+ margin-left: 200px;
 }
 .subscribe-text h1{
   color: rgb(7, 2, 17);
