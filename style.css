@@ -404,18 +404,24 @@ width: 100%;
 display: flex;
 flex-wrap: wrap;
 margin: auto;
-gap: 80px;
+gap: 30PX;
 }
 
 .products div{
-  height: 260px;
-  width: 339px;
+  width: 460px;
   border-radius: 16px;
   margin-top: 19px;
+  border: 1PX dotted rgb(86, 86, 86);
 }
 
 .products div img{
-width: 95%;
+width: 100%;
 }
 
 /*Subscribe section*/
+.subscribe{
+  width: 80%;
+  margin: auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
