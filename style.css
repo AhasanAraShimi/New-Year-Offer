@@ -218,3 +218,101 @@ text-transform: uppercase;
 padding: 12px 25px 12px 25px;
 border: none;
 }
+
+/*Coming soon section*/
+.coming-soon{
+  width: 80%;
+  display: flex;
+  height: 436px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.coming-soon .box{
+  width: 33.3%;
+}
+
+.new-best-offer{
+  width: 350px;
+  margin: auto;
+ 
+}
+ 
+.new-best-offer h4{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.new-best-offer h3{
+  color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 38px;
+font-weight: 900;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+.new-best-offer p{
+padding: 10px 30px 0 0;
+}
+
+.coming-soon-image{
+  margin: 0 auto;
+}
+
+.holder{
+  margin: auto;
+  height: 438px;
+  width: 438px;
+  border: 15px solid rgb(255, 0, 0);
+  padding: 15px;
+  border-radius: 50%;
+}
+.holder img{
+  margin: 10px;
+}
+
+.year{
+  margin: auto;
+  width: 80px;
+  margin-left: 100px;
+}
+
+.year h3{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 38px;
+font-weight: 700;
+line-height: 46px;
+letter-spacing: 0%;
+text-align: left;
+margin-block: 20px;
+}
+
+.year img{
+  width: 112px;
+  margin-block:30px;
+}
+
+.year p{
+  margin-right: 200px;
+}
+
+
+/*Holidays Sale*/
+.discount{
+  width: 80%;
+  background-image: url(images/Rectangle\ 2.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: auto;
+}
