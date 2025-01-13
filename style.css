@@ -225,7 +225,6 @@ border: none;
   display: flex;
   height: 436px;
   margin: auto;
-  margin-bottom: 100px;
 }
 
 .coming-soon .box{
@@ -308,6 +307,47 @@ margin-block: 20px;
 
 
 /*Holidays Sale*/
+.holiday-sale{
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  padding: 80px 100px 100px 100px;
+}
+
+.holiday-sale h5{
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-block:20px ;
+}
+
+.holiday-sale h1{
+  font-family: Merriweather;
+  font-size: 57px;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.holiday-sale h1 span{
+  color: rgb(255, 0, 0);
+}
+
+.holiday-sale p{
+  text-align: center;
+}
+
+
+
+
+
+
+
 .discount{
   width: 80%;
   background-image: url(images/Rectangle\ 2.png);
@@ -315,4 +355,7 @@ margin-block: 20px;
   background-repeat: no-repeat;
   background-position: bottom;
   margin: auto;
+  background-color: aqua;
+ background-size: contain;
+ margin-block: 50px;
 }
