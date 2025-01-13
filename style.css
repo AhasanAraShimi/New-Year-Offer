@@ -345,17 +345,18 @@ margin-block: 20px;
 /*Discount section*/
 .discount{
   width: 80%;
+  height: 75vh;
   background-image: url(images/Rectangle\ 2.png);
-  height: 70vh;
   background-repeat: no-repeat;
   background-position: bottom;
   margin: auto;
- background-size: contain;
- margin-block: 50px;
- display: flex;
- justify-content: space-evenly;
- gap: 40px;
+  background-size: contain;
+  margin-block: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
 }
+
 .image-1{
   width: 600px;
 }
@@ -425,4 +426,77 @@ height: 100%;
   margin: auto;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
+  height: 492px;
+  margin-block: 100px;
+  height: 60vh;
+  
+}
+
+.subscribe-text{
+  width: 50%;
+  margin: auto;
+
+}
+
+.subscribe-text img{
+ margin-left: 350px;
+ width: 110px;
+ padding: 10px;
+ margin-top: 100px;
+}
+.subscribe-text h1{
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  margin-block: 20px;
+}
+
+.subscribe-text p{
+  text-align: center;
+}
+
+.subscribe form{
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.subscribe form input[type="email"]{
+  width: 80%;
+  padding: 15px;
+  border-radius: 50px 0  0 50px;
+  background: rgb(255, 255, 255);
+  float: left;
+  border: none;
+  color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-transform: capitalize;
+}
+
+.subscribe form input[type="submit"]{
+  width: 20%;
+  padding: 15px;
+  border-radius: 0  50px 50px 0 ;
+  background: red;
+
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+border: none;
+
 }
